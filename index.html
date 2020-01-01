@@ -1,0 +1,75 @@
+<HTML>
+<Title>おりびやPICKUPガチャ</Title>
+</HEAD>
+<BODY bgcolor="#FCCEE4">
+<HR align="center">
+<CENTER><B><FONT color="#FD469E" size="+3">
+おりびやPICKUPガチャ
+</FONT></B></CENTER>
+<HR align="center">
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>おりびやPICKUPガチャ</title>
+<script>
+function getImage(){
+  //画像ファイル名を配列で保持
+  var arr = ['11oli.png',
+      '12oli.png',
+      '13oli.png',
+      '14oli.png',
+      '15oli.png',
+      '16oli.png',
+      '17oli.png',
+      '21oli.png',
+      '22oli.png',
+      '23oli.png',
+      '24oli.png',
+      '25oli.png',
+      '26oli.png',
+      '27oli,png',
+      '28oli.png',
+      '31oli.png',
+      '32oli.png',
+      '33oli.png',
+      '34oli.png',
+      '41oli.png',
+      '42oli.png',
+      '43oli.png',
+      '44oli.png',
+      '51oli.png',
+      '52oli.png',
+      '53oli.png',
+      '54oli.png',
+      '55oli.png',
+      '56oli.png',
+      '57oli.png',
+      '99aoli.png',
+      '99boli.png',
+      '100oli.png'
+      ];
+ 
+  //ランダムで画像ファイルを取得して表示する
+  var obj = document.getElementById("im1");
+  var rand = Math.floor(Math.random() *);
+  obj.src = arr[a];
+}
+</script>
+</head>
+<body>
+ <center>
+ 
+  <br>
+  <img width="750" height="1000" border="0" id="im1" alt="">
+  <br>
+  <input type="button" value="1回まわす" onclick="getImage()"
+  style="WIDTH: 200px; HEIGHT: 70px">
+  </center>
+<br>
+<br>
+<br>
+</body>
+</html>
+
